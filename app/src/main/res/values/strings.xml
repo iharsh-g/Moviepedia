@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="network_api_key">eb77a6e7061b90a30a6a28502f197d45</string>
+
+    <!-- Main Activity Action Bar Strings -->
+    <string name="main.actionbar_most_popular"> Movies: Most Popular</string>
+    <string name="main.actionbar_most_voted"> Movies: Most Voted</string>
+    <string name="main.actionbar_favourites"> Movies: Favourites</string>
+
+    <!-- Detail Activity release date, synopsis text, and rating Strings, etc -->
+    <string name="detail.released_title">Release Date</string>
+    <string name="detail.rating_title">Rating</string>
+    <string name="detail.released" translatable="false">%1$s</string>
+    <string name="detail.release_unavailable">Unavailable</string>
+    <string name="detail.synopsis">Synopsis</string>
+    <string name="detail.by_author">By:</string>
+    <string name="detail.no_trailer">NO TRAILER FOUND</string>
+    <string name="detail.no_review">NO REVIEW FOUND</string>
+    <string name="detail.rating_text" translatable="false">(%1$.1f / 10.0)</string>
+
+    <!-- YouTube Videos -->
+    <string name="youtube_video_url" translatable="false">https://www.youtube.com/watch?v=</string>
+    <string name="youtube_img_url" translatable="false">https://img.youtube.com/vi/</string>
+
+    <string name="transition_photo" translatable="false">transition_photo</string>
+
+    <!-- No Network Alert Dialog -->
+    <string name="main.no_network">No network detected!\nThis application requires network connection</string>
+    <string name="main.no_network_try_again">Try Again</string>
+    <string name="main.no_network_close">Close App</string>
+
+    <!-- No API KEY Alert Dialog -->
+    <string name="main.no_api_key">No API KEY Found!\n\nThere is a predefined location for your API KEY in the strings.xml\n\nGo to the strings.xml and fill it up</string>
+    <string name="main.bad_api_key">Bad API KEY!\n\nYour defined API KEY is wrong!\n\nThere is a predefined location for your API KEY in the strings.xml\n\nGo to the strings.xml and fill it up</string>
+    <string name="main.no_api_key_close">Close App</string>
+
+    <string name="network.api_param">api_key</string>
+
+    <string name="network.base_url" translatable="false">https://api.themoviedb.org/3/movie</string>
+    <string name="network.folder_videos" translatable="false">/videos</string>
+    <string name="network.folder_reviews" translatable="false">/reviews</string>
+    <string name="network.folder_popular" translatable="false">/popular</string>
+    <string name="network.folder_top_rated" translatable="false">/top_rated</string>
+    <string name="network.url_images" translatable="false">https://image.tmdb.org/t/p/</string>
+
+    <!-- api image widths -->
+    <string name="network.width.92" translatable="false">w92</string>
+    <string name="network.width.154" translatable="false">w154</string>
+    <string name="network.width.185" translatable="false">w185</string>
+    <string name="network.width.342" translatable="false">w342</string>
+    <string name="network.width.500" translatable="false">w500</string>
+    <string name="network.width.780" translatable="false">w780</string>
+    <string name="network.width.original" translatable="false">original</string>
+
+    <!-- Snackbar -->
+    <string name="favourites_add">Movie Added on Favorites</string>
+    <string name="favourites_removed">Movie Removed from Favorites</string>
+
+    <!-- used By Toggle  -->
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <string name="fav">Favorites</string>
+    <string name="details">Details</string>
+    <string name="sorting">Sorting</string>
+    <string name="thats_all">That\'s all!</string>
+    <string name="intro1">This app suggests movies for you to watch</string>
+    <string name="intro2">Use the navigation drawer to select sorting criteria</string>
+    <string name="intro3">Tap a movie to get detailed view including overview, ratings, reviews and trailers</string>
+    <string name="intro5">Tap the Floating Action Button to add to Favorites.</string>
+    <string name="intro_last">You can play this intro again from the navigation drawer</string>
+</resources>

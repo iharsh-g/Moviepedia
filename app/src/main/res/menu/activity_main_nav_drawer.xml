@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_popular"
+            android:icon="@drawable/ic_popular"
+            android:title="Trending" />
+
+        <item
+            android:id="@+id/menu_voted"
+            android:icon="@drawable/ic_top_rate"
+            android:title="Top Voted" />
+
+        <item
+            android:id="@+id/menu_upcoming"
+            android:icon="@drawable/ic_upcoming"
+            android:title="Upcoming" />
+
+        <item
+            android:id="@+id/menu_favorites"
+            android:icon="@drawable/ic_favorite_menu"
+            android:title="Favorites" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_about"
+            android:title="About" />
+
+        <item
+            android:id="@+id/menu_how_to_use"
+            android:icon="@drawable/ic_help"
+            android:title="How To use?" />
+    </group>
+</menu>

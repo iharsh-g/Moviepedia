@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/fragment_movie_cv_for_iv_poster"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Movie Nameaaaaaaaaaaaaaaa" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/fragment_movie_cv_for_iv_poster"
+            android:layout_width="150dp"
+            android:layout_height="230dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/fragment_movie_iv_poster"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/backdrop_noimage" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/fragment_movie_cv_for_iv_poster"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:text="Movie Tagline" />
+
+        <TextView
+            android:id="@+id/fragment_movie_permanent_tv_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_tagline"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Runtime - "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_movie_runtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_tagline"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@id/fragment_movie_permanent_tv_runtime"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="123" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_tagline"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/fragment_movie_tv_movie_runtime"
+            android:text=" minutes"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/fragment_movie_permanent_tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_movie_runtime"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:text="Rating - "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_movie_runtime"
+            android:layout_marginTop="17dp"
+            android:layout_toRightOf="@id/fragment_movie_permanent_tv_rating"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="3.5" />
+
+        <TextView
+            android:id="@+id/fragment_movie_permanent_tv_movie_budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_rating"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Budget - "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_movie_budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_rating"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@id/fragment_movie_cv_for_iv_poster"
+            android:layout_toRightOf="@id/fragment_movie_permanent_tv_movie_budget"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="1M" />
+
+        <TextView
+            android:id="@+id/fragment_movie_permanent_tv_movie_revenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_movie_budget"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Revenue - "
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_movie_revenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_movie_budget"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@id/fragment_movie_cv_for_iv_poster"
+            android:layout_toRightOf="@id/fragment_movie_permanent_tv_movie_revenue"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="1M" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_movie_genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_movie_revenue"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/fragment_movie_cv_for_iv_poster"
+            android:textColor="#FF0000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Action, Thriller, Horror" />
+
+        <View
+            android:id="@+id/view_left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/fragment_movie_cv_for_iv_poster"
+            android:layout_toLeftOf="@id/fragment_movie_cv_for_iv_poster" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_cv_for_iv_poster"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_toLeftOf="@id/view_right"
+            android:layout_toRightOf="@id/view_left"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="1/13/2000" />
+
+        <View
+            android:id="@+id/view_right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/fragment_movie_cv_for_iv_poster"
+            android:layout_toRightOf="@id/fragment_movie_cv_for_iv_poster" />
+
+        <TextView
+            android:id="@+id/fragment_movie_permanent_tv_synopsis_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_movie_genres"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="Overview"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fragment_movie_tv_synopsis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_synopsis_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="16dp"
+            android:text="blaa aalcnsa \nndasrfwwr\\n\n\n\n\n\nn\n\n\ngsssssdgsf"
+            android:textColor="@color/subtext_color"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fragment_movie_permanent_tv_cast_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_tv_synopsis"
+            android:layout_marginLeft="16dp"
+            android:text="Cast"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fragment_movie_rv_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_movie_permanent_tv_cast_title"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            tools:listitem="@layout/list_item_fragment_movie_cast" />
+    </RelativeLayout>
+
+</layout>
