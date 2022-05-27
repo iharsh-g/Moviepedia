@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Popular Movies</string>
+    <string name="app_name">Moviepedia</string>
     <string name="network_api_key">eb77a6e7061b90a30a6a28502f197d45</string>
 
     <!-- Main Activity Action Bar Strings -->
@@ -52,7 +52,7 @@
     <string name="network.width.780" translatable="false">w780</string>
     <string name="network.width.original" translatable="false">original</string>
 
-    <!-- Snackbar -->
+    <!-- Snack Bar -->
     <string name="favourites_add">Movie Added on Favorites</string>
     <string name="favourites_removed">Movie Removed from Favorites</string>
 
@@ -60,6 +60,7 @@
     <string name="open_drawer">Open</string>
     <string name="close_drawer">Close</string>
 
+    <!--  OnBoard Activity  -->
     <string name="fav">Favorites</string>
     <string name="details">Details</string>
     <string name="sorting">Sorting</string>
