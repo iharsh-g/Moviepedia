@@ -1,11 +1,11 @@
-# Popular Movies 
+# Moviepedia
 _by Harsh Goyal_
 
 
 
 
 To get the api go to tmdb site, by login you will get the api with unlimited calls.
-
+<!---
 You can see the app functionality with some reference videos-
 #
 
@@ -24,3 +24,4 @@ https://user-images.githubusercontent.com/79085857/166410248-ed83e017-e5e9-48cf-
 https://user-images.githubusercontent.com/79085857/166410038-2257290f-62f8-41f8-92d1-8a708e7d527b.mp4
 
 #
+---->
